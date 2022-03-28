@@ -1,80 +1,28 @@
-// let firstName = "Vincenzo"
-// let surname = "Iacona"
-
-// let fullname = firstName + " " + surname
-
-// console.log(fullName)
-
-// let name = "Linda"
-// let greeting = "Hi there, "
-
-// function log() {
-//     myGreeting = greeting + name + "!"
-//     console.log(myGreeting)
-// }
-
-// log()
-
-// let myPoints = 3
-
-// function add3Points() {
-//     myPoints = myPoints + 3
-// }
-
-
-// function remove1Point() {
-// myPoints = myPoints - 1
-// }
-
-
-// add3Points()
-// add3Points()
-// add3Points()
-// remove1Point()
-// remove1Point()
+let firstCard = 10
+let secondCard = 10
+let sum = firstCard + secondCard
+let hasBlackJack = false
+let isAlive = true
+let message = ""
 
 
 
-// console.log(myPoints)
-
-// let errorEvent = document.getElementById("error")
-// console.log(errorEvent)
-
-
-// function purchase() {
-    
-//     console.log("button clicked")
-//     errorEvent.textContent = "Something went wrong, please try again"
-// }
-
-let num1 = 8
-let num2 = 2
-
-document.getElementById("num1-el").textContent = num1
-document.getElementById("num2-el").textContent = num2
-let total = document.getElementById("total-el")
-
-function add() {
-    let result = num1 + num2
-    total.textContent = "Total: " + result
-
+if (sum <= 20) {
+    message = "Do you want to draw a new card?"
+} else if (sum === 21) {
+    message = "You've got Blackjack!"
+    hasBlackJack = true
+} else {
+    message = "You are out of the game!"
+    isAlive = false
 }
 
-function subtract() {
-    let result = num1 - num2
-    total.textContent = "Total: " + result
+//Cash Out
+// console.log("hasBlackJack: " + hasBlackJack)
+// console.log("Is alive: " + isAlive)
 
-}
 
-function divide() {
-    let result = num1 / num2
-    total.textContent = "Total: " + result
+// Log it out
+console.log(message)
 
-}
-
-function multiply() {
-    let result = num1 * num2
-    total.textContent = "Total: " + result
-
-}
 
