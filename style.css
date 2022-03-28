@@ -1,0 +1,27 @@
+* {
+    background-color: green;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h1 {
+    color: goldenrod;
+    border-bottom: 3px solid goldenrod;
+}
+
+.box {
+    background-color: rgb(41, 163, 41);
+    border: 2px solid gold;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    border-radius: 3px;
+}
