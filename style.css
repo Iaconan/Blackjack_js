@@ -24,4 +24,16 @@ button {
     box-shadow: 2px 2px 2px black;
     border: none;
     border-radius: 3px;
+    margin-top: 30px;
+
+}
+
+.new {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
